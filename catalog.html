@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАТАЛОГ — ПУХОВИЧОК & ЛЕДИ</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="catalog-body" class="catalog-page">
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">ПУХОВИЧОК & ЛЕДИ</a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li> 
+                    <li><a href="index.html#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <button id="themeToggle" class="theme-toggle" aria-label="Переключить тему">
+        <i class="fas fa-sun"></i> 
+    </button>
+    
+    <section id="catalog" class="main-content">
+        <div class="container">
+            <h2 class="animate-on-scroll">ПОЛНЫЙ КАТАЛОГ ПРОДУКЦИИ</h2>
+            
+            <div class="category-block" id="puhovichok-catalog">
+                <h3 class="animate-on-scroll">ПУХОВИЧОК (Верхняя одежда)</h3>
+                <div class="product-grid" id="outerwear-grid">
+                    </div>
+            </div>
+            
+            <div class="category-block" id="ledi-catalog">
+                <h3 class="animate-on-scroll">ЛЕДИ (Повседневная и нарядная одежда)</h3>
+                <div class="product-grid" id="regular-wear-grid">
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 ПУХОВИЧОК & ЛЕДИ. Все права защищены. | 
+                <a href="#">Политика конфиденциальности</a>
+            </p>
+        </div>
+    </footer>
+    
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <h4 id="modalProductName">Название Товара</h4>
+            
+            <div class="modal-details">
+                <strong>Характеристики:</strong>
+                <p id="modalProductChars"></p>
+                
+                <strong>Доступные размеры:</strong>
+                <div class="size-options" id="modalProductSizes">
+                    </div>
+            </div>
+            </div>
+    </div>
+    
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

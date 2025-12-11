@@ -1,0 +1,12 @@
+// === ДАННЫЕ ПРОДУКЦИИ ===
+const products = [
+    // ПУХОВИЧОК (Outerwear)
+    { id: 101, category: 'Пуховики', group: 'outerwear', name: 'Пуховик "Зимняя Сказка"', price: '15 990', img: 'https://placehold.co/400x550/9F4099/FFFFFF?text=Пуховик', description: 'Ультратеплый пуховик с натуральным наполнителем.', characteristics: 'Наполнитель: гусиный пух 90%, перо 10%. Внешний материал: водоотталкивающий полиэстер. Температурный режим: до -30°C.', sizes: ['XS', 'S', 'M', 'L', 'XL'] },
+    { id: 102, category: 'Куртки', group: 'outerwear', name: 'Куртка "Весенний Бриз"', price: '7 850', img: 'https://placehold.co/400x550/9F4099/FFFFFF?text=Куртка', description: 'Легкая стеганая куртка для межсезонья.', characteristics: 'Материал: 100% нейлон. Наполнитель: синтепон 100г/м². Воротник-стойка. Идеально для +5°C до +15°C.', sizes: ['S', 'M', 'L'] },
+    { id: 103, category: 'Пальто', group: 'outerwear', name: 'Классическое Пальто "Элегия"', price: '12 500', img: 'https://placehold.co/400x550/9F4099/FFFFFF?text=Пальто', description: 'Двубортное шерстяное пальто с поясом.', characteristics: 'Состав: 70% шерсть, 30% полиэстер. Подкладка: вискоза. Длина: миди. Цвет: бежевый.', sizes: ['S', 'M', 'L', 'XL'] },
+    
+    // ЛЕДИ (Regular Wear)
+    { id: 201, category: 'Платья', group: 'regular-wear', name: 'Вечернее Платье "Монако"', price: '9 900', img: 'https://placehold.co/400x550/C850C0/FFFFFF?text=Платье', description: 'Длинное атласное платье с открытой спиной.', characteristics: 'Материал: 100% атлас. Цвет: изумрудный. Длина в пол. Скрытая молния.', sizes: ['XS', 'S', 'M'] },
+    { id: 202, category: 'Костюмы', group: 'regular-wear', name: 'Деловой Костюм "Бизнес Леди"', price: '11 200', img: 'https://placehold.co/400x550/C850C0/FFFFFF?text=Костюм', description: 'Стильный брючный костюм из фактурной ткани.', characteristics: 'Материал: 80% вискоза, 20% эластан. Пиджак оверсайз, брюки прямые. Цвет: графит.', sizes: ['S', 'M', 'L'] },
+    { id: 203, category: 'Купальники', group: 'regular-wear', name: 'Купальник "Тропики"', price: '3 200', img: 'https://placehold.co/400x550/C850C0/FFFFFF?text=Купальник', description: 'Раздельный купальник с высокой талией.', characteristics: 'Материал: 85% полиамид, 15% эластан. Быстросохнущая ткань. Защита UV50+.', sizes: ['S', 'M', 'L'] },
+];
