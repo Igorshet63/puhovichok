@@ -106,10 +106,9 @@ function initScrollAnimations() {
 
 // === ЛОГИКА SWIPER SLIDER (только для index.html) ===
 function initSwiper() {
-    // eslint-disable-next-line no-unused-vars
     const swiper = new Swiper('.swiper-container', {
         loop: true,
-        spaceBetween: 0,
+        grabCursor: true, // Добавит иконку "руки" при наведении
         centeredSlides: true,
         autoplay: {
             delay: 3500,
@@ -123,18 +122,9 @@ function initSwiper() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        // Адаптивные брейкпоинты
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-            },
-            768: {
-                slidesPerView: 1,
-            },
-            1024: {
-                slidesPerView: 1,
-            },
-        }
+        // Гарантируем корректное поведение при изменении размеров окна
+        observer: true,
+        observeParents: true,
     });
 }
 
