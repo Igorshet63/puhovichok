@@ -111,6 +111,7 @@ h2 {
     margin-bottom: 60px;
 }
 
+
 .btn {
     display: inline-block;
     padding: 15px 40px;
@@ -155,6 +156,12 @@ h2 {
     background: url('images/Aivengo_11.png') center center / cover no-repeat;
     color: var(--color-white);
 }
+.hero p {
+    font-size: 24px; /* Базовый 16px * 1.5 = 24px */
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
 .hero::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.4); z-index: 9; }
 .hero-content { position: relative; z-index: 10; max-width: 800px; margin: 0 auto; }
 .hero h1 { font-family: var(--font-heading); font-weight: 900; font-size: 64px; margin-bottom: 20px; }
@@ -303,3 +310,11 @@ h2 {
 /* Анимации при скролле */
 .animate-on-scroll { opacity: 0; transform: translateY(20px); transition: 0.6s ease-out; }
 .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+@keyframes simple-blink {
+    50% { opacity: 0.7; }
+}
+
+.hero .btn {
+    animation: simple-blink 1.5s infinite ease-in-out;
+}
