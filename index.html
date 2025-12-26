@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ПУХОВИЧОК & ЛЕДИ — Модная одежда</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="index-body">
@@ -34,41 +31,145 @@
     <section id="hero" class="hero">
         <div class="hero-content">
             <h1 class="animate__animated animate__bounceInDown">ПУХОВИЧОК & ЛЕДИ</h1>
-            <p class="animate__animated animate__fadeInUp animate__delay-1s">Стиль, комфорт и качество в каждой детали.</p>
-            <a href="catalog.html" class="btn animate__animated animate__fadeInUp animate__delay-2s">Перейти в каталог</a>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                Добро пожаловать в наш магазин, где стиль встречается с комфортом.
+            </p>
+            <a href="catalog.html" class="btn animate__animated animate__zoomIn animate__delay-2s">Перейти в каталог</a>
         </div>
     </section>
 
-    <section class="swiper-section container animate-on-scroll">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="https://placehold.co/1200x500?text=Новая+коллекция" alt="Slide 1"></div>
-                <div class="swiper-slide"><img src="https://placehold.co/1200x500?text=Верхняя+одежда" alt="Slide 2"></div>
-                <div class="swiper-slide"><img src="https://placehold.co/1200x500?text=Леди+Стиль" alt="Slide 3"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-
-    <section id="contacts" class="contacts-section">
+    <section id="directions">
         <div class="container">
-            <h2 class="animate-on-scroll">Наши контакты</h2>
-            <div class="contacts-grid">
-                <div class="contacts-info animate-on-scroll">
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> г. Ейск, ул. Свердлова, 87</li>
-                        <li><i class="fas fa-phone"></i> +7 (918) 123-45-67</li>
+            <h2 class="animate-on-scroll">НАПРАВЛЕНИЯ</h2>
+            <div class="directions-grid">
+                <div class="direction-card animate-on-scroll">
+                    <img src="images/puhovichok_card.png" alt="Пуховики и куртки">
+                    <div class="card-body">
+                        <div class="card-title-group">
+                            <h3>ПУХОВИЧОК</h3>
+                             <a href="https://t.me/yourtelegramchannel" target="_blank" rel="noopener" class="tg-icon-link">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                        <p>Широкий ассортимент верхней одежды: от ультратеплых пуховиков до легких курток для межсезонья.</p>
+                        <a href="catalog.html#puhovichok-catalog" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="direction-card animate-on-scroll">
+                    <img src="images/ledi_card.png" alt="Платья и костюмы">
+                    <div class="card-body">
+                        <div class="card-title-group">
+                            <h3>ЛЕДИ</h3>
+                             <a href="https://t.me/yeiskgirl" target="_blank" rel="noopener" class="tg-icon-link">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                        <p>Элегантные платья, деловые костюмы и повседневная одежда для создания идеального образа.</p>
+                        <a href="catalog.html#ledi-catalog" class="btn">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="benefits" class="benefits">
+    <div class="container">
+        <div class="benefits-top">
+            <h2 class="animate-on-scroll">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item animate-on-scroll">
+                    <i class="fas fa-gem"></i>
+                    <h4>Качество</h4>
+                    <p>Только проверенные материалы и надежные производители.</p>
+                </div>
+                <div class="benefit-item animate-on-scroll">
+                    <i class="fas fa-palette"></i>
+                    <h4>Стиль</h4>
+                    <p>Актуальные коллекции и модные тенденции в каждом сезоне.</p>
+                </div>
+                <div class="benefit-item animate-on-scroll">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h4>Размерный ряд</h4>
+                    <p>Большие и маленькие размеры для идеальной посадки.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="reviews-bottom">
+<h2 class="animate-on-scroll visible" style=" margin-bottom: 10px;
+">ОТЗЫВЫ НАШИХ ПОКУПАТЕЛЕЙ</h2>
+            <div class="reviews-grid">
+                <div class="review-card animate-on-scroll">
+                    <p class="review-text">"Прекрасный магазин! Купила пуховик, качество на высоте, очень теплый и легкий."</p>
+                    <span class="review-author">— Анна К.</span>
+                </div>
+                <div class="review-card animate-on-scroll">
+                    <p class="review-text">"Обожаю отдел Леди. Всегда нахожу элегантные платья для работы и праздников."</p>
+                    <span class="review-author">— Мария С.</span>
+                </div>
+                <div class="review-card animate-on-scroll">
+                    <p class="review-text">"Вежливый персонал и отличный выбор размеров. Рекомендую всем знакомым!"</p>
+                    <span class="review-author">— Елена В.</span>
+                </div>
+            </div>
+            <div class="reviews-action">
+                <a href="https://yandex.ru/maps/org/pukhovichok_ledi/53226657426/reviews/?from=mapframe&ll=38.278220%2C46.708533&z=16" class="btn">Все отзывы</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="slider" class="slider-section">
+        <div class="container">
+            <h2 class="animate-on-scroll">НОВИНКИ СЕЗОНА</h2>
+            <div class="swiper-ratio-box animate-on-scroll"> 
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/slider1.png" alt="Слайд 1"></div>
+                        <div class="swiper-slide"><img src="images/slider2.png" alt="Слайд 2"></div>
+                        <div class="swiper-slide"><img src="images/slider3.png" alt="Слайд 3"></div>
+                        <div class="swiper-slide"><img src="images/slider4.png" alt="Слайд 4"></div>
+                        <div class="swiper-slide"><img src="images/slider5.png" alt="Слайд 5"></div>
+                        <div class="swiper-slide"><img src="images/slider6.png" alt="Слайд 6"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts-section animate-on-scroll">
+        <div class="container">
+            <div class="contacts-wrapper">
+                <div class="contacts-info">
+                    <h2>Контакты</h2>
+                    <ul class="contacts-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Краснодарский край, Ейск, улица Карла Либкнехта 39, ТЦ "Айвенго", 0 этаж</li>
+                        <li><i class="fas fa-phone"></i> +7 (939) 916-26-20</li>
+                        <li><i class="fas fa-phone"></i> +7 (918) 345-67-89</li>
+                        <li><i class="fas fa-envelope"></i> info@ledi.ru</li>
+                        <li><i class="fas fa-envelope"></i> irinapolanichcko5@gmail.com</li>                 
                         <li><i class="fab fa-instagram"></i> @puhovichokledi</li>
                         <li><i class="fas fa-clock"></i> Ежедневно: 09:00 – 17:00</li>
                     </ul>
                 </div>
-                <div class="contacts-map-container animate-on-scroll">
+                
+                <div class="contacts-map-container">
                     <iframe 
-                        src="https://yandex.ru/map-widget/v1/?ll=38.277873%2C46.708170&z=17" 
-                        width="100%" height="300" frameborder="0" allowfullscreen="true">
+                        src="https://yandex.ru/map-widget/v1/?ll=38.277873%2C46.708170&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjM5OTQyNBJK0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60B_QuSDRgtGA0LDQuSwg0JXQudGB0LosINGD0LvQuNGG0LAg0KHQstC10YDQtNC70L7QstCwLCA4NyIKDWZCHkIVhAtpQg%3D%3D&z=17&text=Пуховичок%20%26%20Леди" 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        allowfullscreen="true">
                     </iframe>
+                    <a href="yandexnavi://build_route_on_map?lat_to=46.708170&lon_to=38.277873" class="navigator-btn">
+                        <i class="fas fa-location-arrow"></i> Открыть в Навигаторе
+                    </a>
                 </div>
             </div>
         </div>
@@ -76,10 +177,12 @@
 
     <footer class="footer">
         <div class="container">
-            <p>© 2025 ПУХОВИЧОК & ЛЕДИ. Все права защищены.</p>
+            <p>© 2025 ПУХОВИЧОК & ЛЕДИ. Все права защищены. | 
+                <a href="#">Политика конфиденциальности</a>
+            </p>
         </div>
     </footer>
-
+    
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
