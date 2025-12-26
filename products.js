@@ -10,4 +10,3 @@ const products = [
     { id: 202, category: 'Костюмы', group: 'regular-wear', name: 'Костюм', price: '', img: 'images/photo_kostum.jpg', description: 'Летний костюм', characteristics: 'Материал: 80% вискоза, 20% эластан. Пиджак оверсайз, брюки прямые. Цвет: графит.', sizes: ['S', 'M', 'L'] },
     { id: 203, category: 'Купальники', group: 'regular-wear', name: 'Купальники', price: '', img: 'images/photo_kupalniki.jpg', description: 'купальники в ассортименте.', characteristics: 'Материал: 85% полиамид, 15% эластан. Быстросохнущая ткань. Защита UV50+.', sizes: ['S', 'M', 'L'] },
 ];
-
